@@ -1,1 +1,1 @@
-web: gunicorn notesapp.wsgi
+web: python notesapp/manage.py runserver 0.0.0.0:5000
